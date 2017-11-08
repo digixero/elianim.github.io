@@ -1,0 +1,80 @@
+$background:#151818;
+$titleBackground:#D0D6D7;
+$text:#D3D1C6;
+$header:#07525C;
+$link:#354C4F;
+$activeLink:#01373F;
+$linkText:'Varela Round', sans-serif;
+
+body{
+    background: $background;
+    height: 100%;
+    margin: 0px;
+    
+    #nameTitle{
+        background: $titleBackground;
+        font-family: 'Pacifico', cursive;
+        font-size: 50px;
+        h1{
+            margin: 0px;
+            text-align: center;
+        }
+    }
+    
+    #socialMedia{
+        background: $titleBackground;
+        width: 100%;
+        text-align: center;
+        margin: -20px 0px 0px;
+        padding-bottom: 10px;
+        
+        ul{
+            padding: 0px;
+            margin: 0px;
+            li{
+                list-style: none;
+                display: inline-block;
+                margin: 0px 10px;
+                
+            }
+        }
+    }
+    nav{
+        background: $background;
+        width: 100%;
+        text-align: center;
+        ul{
+            padding: 10px 0px;
+            margin: 0px;
+            li{
+                list-style: none;
+                color: $link;
+                font-family: $linkText;
+                font-size: 22px;
+                padding: 0px 5px;
+                display: inline-block;
+                a{
+                    text-decoration: none;
+                    &:visited{
+                        color: $link;
+                    }
+                    &:hover{
+                        color: $activeLink;
+                        text-decoration: underline;
+                    }   
+                }
+            }
+            li#activeLink{
+                color: $activeLink;
+            }
+        }
+    }
+}
+
+$breakpoint-phone: 300px;
+
+@media (min-width: $breakpoint-phone){
+    #nameTitle{
+        font-size: 35px;
+    }
+}

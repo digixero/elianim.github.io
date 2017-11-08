@@ -1,0 +1,22 @@
+/* line 10, C:/Users/Digi/Desktop/animation web/css/contact-me.scss */
+#contactMe h2 {
+  font-family: "Varela Round", sans-serif;
+  font-size: 30px;
+  color: #07525C;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 2px;
+  border-bottom: 3px solid; }
+
+/* line 19, C:/Users/Digi/Desktop/animation web/css/contact-me.scss */
+#contactMe p {
+  color: #D3D1C6;
+  padding-left: 20px; }
+  /* line 23, C:/Users/Digi/Desktop/animation web/css/contact-me.scss */
+  #contactMe p a {
+    color: #07525C; }
+    /* line 26, C:/Users/Digi/Desktop/animation web/css/contact-me.scss */
+    #contactMe p a:hover {
+      color: #01373F; }
+
+/*# sourceMappingURL=contact-me.css.map */

@@ -1,0 +1,64 @@
+/* line 9, C:/Users/Digi/Desktop/animation web/css/home_styles.scss */
+#videoSec {
+  width: 100%;
+  background: #151818; }
+  /* line 14, C:/Users/Digi/Desktop/animation web/css/home_styles.scss */
+  #videoSec #highlightReel h2 {
+    font-family: "Varela Round", sans-serif;
+    font-size: 30px;
+    color: #07525C;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 2px;
+    border-bottom: 3px solid; }
+  /* line 23, C:/Users/Digi/Desktop/animation web/css/home_styles.scss */
+  #videoSec #highlightReel #highlightVid {
+    display: block;
+    padding: 0px 10%; }
+    /* line 27, C:/Users/Digi/Desktop/animation web/css/home_styles.scss */
+    #videoSec #highlightReel #highlightVid .videoWrapper {
+      position: relative;
+      padding-bottom: 56.25%;
+      /* 16:9 */
+      padding-top: 25px;
+      height: 0; }
+      /* line 33, C:/Users/Digi/Desktop/animation web/css/home_styles.scss */
+      #videoSec #highlightReel #highlightVid .videoWrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 10;
+        width: 100%;
+        height: 100%; }
+  /* line 45, C:/Users/Digi/Desktop/animation web/css/home_styles.scss */
+  #videoSec .animProj h3 {
+    font-family: "Varela Round", sans-serif;
+    font-size: 18px;
+    color: #07525C;
+    margin-left: 10px;
+    padding-bottom: 2px;
+    border-bottom: 2px solid;
+    margin-bottom: 0px; }
+  /* line 55, C:/Users/Digi/Desktop/animation web/css/home_styles.scss */
+  #videoSec .animProj .projWrapper {
+    width: 100%;
+    margin: 10px 5%;
+    display: flex;
+    flex-wrap: wrap; }
+    /* line 61, C:/Users/Digi/Desktop/animation web/css/home_styles.scss */
+    #videoSec .animProj .projWrapper .projVids {
+      margin-right: 5px;
+      margin-bottom: 5px;
+      width: 222.4px;
+      height: 124.4px; }
+
+@media (min-width: 450px) {
+  /* line 74, C:/Users/Digi/Desktop/animation web/css/home_styles.scss */
+  .projWrapper {
+    width: auto;
+    margin: 10px 10%; }
+    /* line 78, C:/Users/Digi/Desktop/animation web/css/home_styles.scss */
+    .projWrapper .projVids {
+      width: 100%;
+      height: 100%; } }
+
+/*# sourceMappingURL=home_styles.css.map */

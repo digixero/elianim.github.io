@@ -1,0 +1,23 @@
+/* line 10, C:/Users/Digi/Desktop/animation web/css/about-me.scss */
+#aboutMe h2 {
+  font-family: "Varela Round", sans-serif;
+  font-size: 30px;
+  color: #07525C;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 2px;
+  border-bottom: 3px solid; }
+
+/* line 20, C:/Users/Digi/Desktop/animation web/css/about-me.scss */
+#aboutMe p {
+  color: #D3D1C6;
+  padding-left: 20px;
+  max-width: 700px; }
+  /* line 25, C:/Users/Digi/Desktop/animation web/css/about-me.scss */
+  #aboutMe p a {
+    color: #07525C; }
+    /* line 28, C:/Users/Digi/Desktop/animation web/css/about-me.scss */
+    #aboutMe p a:hover {
+      color: #01373F; }
+
+/*# sourceMappingURL=about-me.css.map */

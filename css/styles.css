@@ -1,0 +1,67 @@
+/* line 9, C:/Users/Digi/Desktop/animation web/css/styles.scss */
+body {
+  background: #151818;
+  height: 100%;
+  margin: 0px; }
+  /* line 14, C:/Users/Digi/Desktop/animation web/css/styles.scss */
+  body #nameTitle {
+    background: #D0D6D7;
+    font-family: 'Pacifico', cursive;
+    font-size: 50px; }
+    /* line 18, C:/Users/Digi/Desktop/animation web/css/styles.scss */
+    body #nameTitle h1 {
+      margin: 0px;
+      text-align: center; }
+  /* line 24, C:/Users/Digi/Desktop/animation web/css/styles.scss */
+  body #socialMedia {
+    background: #D0D6D7;
+    width: 100%;
+    text-align: center;
+    margin: -20px 0px 0px;
+    padding-bottom: 10px; }
+    /* line 31, C:/Users/Digi/Desktop/animation web/css/styles.scss */
+    body #socialMedia ul {
+      padding: 0px;
+      margin: 0px; }
+      /* line 34, C:/Users/Digi/Desktop/animation web/css/styles.scss */
+      body #socialMedia ul li {
+        list-style: none;
+        display: inline-block;
+        margin: 0px 10px; }
+  /* line 42, C:/Users/Digi/Desktop/animation web/css/styles.scss */
+  body nav {
+    background: #151818;
+    width: 100%;
+    text-align: center; }
+    /* line 46, C:/Users/Digi/Desktop/animation web/css/styles.scss */
+    body nav ul {
+      padding: 10px 0px;
+      margin: 0px; }
+      /* line 49, C:/Users/Digi/Desktop/animation web/css/styles.scss */
+      body nav ul li {
+        list-style: none;
+        color: #354C4F;
+        font-family: "Varela Round", sans-serif;
+        font-size: 22px;
+        padding: 0px 5px;
+        display: inline-block; }
+        /* line 56, C:/Users/Digi/Desktop/animation web/css/styles.scss */
+        body nav ul li a {
+          text-decoration: none; }
+          /* line 58, C:/Users/Digi/Desktop/animation web/css/styles.scss */
+          body nav ul li a:visited {
+            color: #354C4F; }
+          /* line 61, C:/Users/Digi/Desktop/animation web/css/styles.scss */
+          body nav ul li a:hover {
+            color: #01373F;
+            text-decoration: underline; }
+      /* line 67, C:/Users/Digi/Desktop/animation web/css/styles.scss */
+      body nav ul li#activeLink {
+        color: #01373F; }
+
+@media (min-width: 300px) {
+  /* line 77, C:/Users/Digi/Desktop/animation web/css/styles.scss */
+  #nameTitle {
+    font-size: 35px; } }
+
+/*# sourceMappingURL=styles.css.map */

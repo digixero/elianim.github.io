@@ -1,0 +1,31 @@
+$background:#151818;
+$titleBackground:#D0D6D7;
+$text:#D3D1C6;
+$header:#07525C;
+$link:#354C4F;
+$activeLink:#01373F;
+$linkText:'Varela Round', sans-serif;
+
+#contactMe{
+         h2{
+             font-family: $linkText;
+             font-size: 30px;
+             color: $header;
+             margin-left: 10px;
+             margin-bottom: 0px;
+             padding-bottom: 2px;
+             border-bottom: 3px solid;
+         }
+    p{
+        color: $text;
+        padding-left: 20px;
+        
+        a{
+            color: $header;
+            
+            &:hover{
+                color: $activeLink;
+            }
+        }
+    }
+}
